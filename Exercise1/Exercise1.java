@@ -36,27 +36,13 @@ public class Exercise1{
         return num2; 
     }
 
-    public char capA1(){
-        return a11 = Character.toUpperCase(getA1()); 
-    }
 
-    public char capA2(){
-        return a22 = Character.toLowerCase(getA2()); 
-    }
-
-    public double sqNum1(){
-        return num11 = Math.sqrt(getNum1()); 
-    }
-
-    public double sqNum2(){
-       return num22 = Math.sqrt(getNum2()); 
-    }
 
     public void display(){
-        System.out.printf("The uppercase of %c is %c\n", getA1(), capA1());
-        System.out.printf("The lowercase of %c is %c\n", getA2(), capA2());
-        System.out.printf("Math.sqrt(%d) = %.2f\n", getNum1(), sqNum1());
-        System.out.printf("Math.sqrt(%d) = %.2f\n", getNum2(), sqNum2());
+        System.out.printf("The uppercase of %c is %c\n", getA1(), Character.toUpperCase(getA1()));
+        System.out.printf("The lowercase of %c is %c\n", getA2(), Character.toLowerCase(getA2()));
+        System.out.printf("Math.sqrt(%d) = %.2f\n", getNum1(), Math.sqrt(getNum1()));
+        System.out.printf("Math.sqrt(%d) = %.2f\n", getNum2(), Math.sqrt(getNum2()));
 
     }
 
